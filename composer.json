@@ -1,0 +1,17 @@
+{
+    "name": "sergenkabakci/fusionapi",
+    "description": "A simple api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergen Kabakçı",
+            "email": "sergen.kabakci@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"sergenkabakci\\FusionApi\\": "src/"}
+    },
+    "require": {}
+}
