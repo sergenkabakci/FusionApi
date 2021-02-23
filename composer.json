@@ -1,17 +1,23 @@
 {
-    "name": "sergenkabakci/fusionapi",
+	"name": "sergenkabakci/fusionapi",
     "description": "A simple api",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Sergen Kabakçı",
-            "email": "sergen.kabakci@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "autoload": {
-        "psr-4": {"sergenkabakci\\FusionApi\\": "src/"}
-    },
-    "require": {}
+	"type": "library",
+	"license": "MIT",
+	"version": "1.0.0",
+	"minimum-stability": "stable",
+	"authors": [
+    {
+      "name": "Sergen Kabakçı",
+      "email": "sergen@digicell.com.tr"
+    }
+	],
+	"autoload": {
+		"psr-4": {
+		"": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.6.0",
+		"ext-curl": "*"
+	}
 }
